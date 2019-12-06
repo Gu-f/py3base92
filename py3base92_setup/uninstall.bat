@@ -1,0 +1,2 @@
+pip uninstall py3base92
+pause
