@@ -4,6 +4,8 @@ A python library to create base92 encoded strings in python3.
 
 正式版本的版本号开始于1.1.0，至于为什么从1.1.0开始，考虑到python2的实现版本为1.0.3，并且已停更，然后之前又发布了一个临时py3的版本1.0.3-1，想区别于py2的版本号又不想从0版本开始，就即兴定下了第一个版本号为1.1.0  
 
+[Readme_EN](https://github.com/Gu-f/py3base92/blob/master/README_EN.md)
+
 
 ## 历史版本时间线
 **版本: 1.0.3-1**  
