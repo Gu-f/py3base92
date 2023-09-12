@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: py3base92
+Version: 1.1.0
+Summary: A python library to create base92 encoded strings in python3
+Author: Gu-f
+Project-URL: Homepage, https://github.com/Gu-f/py3base92
+Project-URL: Bug Tracker, https://github.com/Gu-f/py3base92/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BEERWARE License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # py3base92
 一个python3实现的base92编码python库  
 A python library to create base92 encoded strings in python3.  

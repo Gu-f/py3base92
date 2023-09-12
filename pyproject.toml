@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py3base92"
+version = "1.1.0"
+authors = [
+  { name="Gu-f" },
+]
+description = "A python library to create base92 encoded strings in python3"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BEERWARE License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Gu-f/py3base92"
+"Bug Tracker" = "https://github.com/Gu-f/py3base92/issues"
