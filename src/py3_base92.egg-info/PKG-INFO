@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: py3base92
+Name: py3-base92
 Version: 1.1.0
 Summary: A python library to create base92 encoded strings in python3
 Author: Gu-f
@@ -55,7 +55,7 @@ base92_encode()
 
 ## 用法  
 
-`pip install py3base92`  
+`pip install py3-base92`  
 或  
 `$ENV:PYTHONPATH='src';python .\src\setup.py install`(Windows Powershell)  
 `PYTHONPATH=src python .\src\setup.py install`(Linux)  

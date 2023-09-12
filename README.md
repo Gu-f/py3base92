@@ -41,7 +41,7 @@ base92_encode()
 
 ## 用法  
 
-`pip install py3base92`  
+`pip install py3-base92`  
 或  
 `$ENV:PYTHONPATH='src';python .\src\setup.py install`(Windows Powershell)  
 `PYTHONPATH=src python .\src\setup.py install`(Linux)  

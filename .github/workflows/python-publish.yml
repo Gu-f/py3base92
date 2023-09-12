@@ -6,11 +6,11 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: py3base92
+name: py3-base92
 
 on:
   release:
-    types: [published, created, edited, released]
+    types: [published]
 
 permissions:
   contents: read

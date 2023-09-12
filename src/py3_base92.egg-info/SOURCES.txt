@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/setup.py
+src/py3_base92.egg-info/PKG-INFO
+src/py3_base92.egg-info/SOURCES.txt
+src/py3_base92.egg-info/dependency_links.txt
+src/py3_base92.egg-info/top_level.txt
+src/py3base92/__init__.py
+src/py3base92/base92.py
+tests/test_base92.py

@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='py3base92',
+    name='py3-base92',
     version='1.1.0',
     author='Gu-f',
     packages=['src/py3base92'],
