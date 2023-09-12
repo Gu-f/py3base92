@@ -9,8 +9,7 @@
 name: py3base92
 
 on:
-  release:
-    types: [published]
+  push
 
 permissions:
   contents: read
