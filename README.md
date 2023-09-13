@@ -11,6 +11,8 @@ A python library to create base92 encoded strings in python3.
 **版本: 1.0.3-1**  
 更新到python3之后发现base92模块不能用了，看到原作者thenoviceoof的base92的包最后更新也是7年前了，因此在其基础代码上做base92 python3的兼容版本
 包作为临时使用，并未准备用做项目，所以未发到PyPi ，同时构建的setup也未做详细描述和介绍。  
+pypi中搜索了下，我没有发布，但是发现其他人把这个版本发布上去了，[python3base92 1.0.3.post1](https://pypi.org/project/python3base92/)  
+安装命令 `pip install python3base92`  
 > 该版本只支持可打印字符，不支持bytes  
 > 用法：  
 > 采用setup.py安装后需要导入py3base92模块  
@@ -31,17 +33,21 @@ print(py3base92.base92_decode("Jw_@V"))
 
 **版本: 1.1.0**  
 第一个正式发布到PyPi的版本，后续仅在该版本基础上更新。    
-> 该版本已完善支持bytes  
+> 该版本已完善支持bytes，并修复了上个版本中遗留的一些bug  
 
 移除冗余方法：  
 encode()  
 base92_encode()  
+decode()  
+base92_decode()  
 
 
 
 ## 用法  
-
-`pip install py3-base92`  
+由于py3base92的包名被pypi判定为类似上一个版本的python3base92的包名，无法使用，所以新版本使用py3-base92  
+旧版本存在一些bug，建议使用最新版本  
+安装  
+`pip install py3-base92`(旧版本请使用`pip install python3base92`)  
 或  
 `$ENV:PYTHONPATH='src';python .\src\setup.py install`(Windows Powershell)  
 `PYTHONPATH=src python .\src\setup.py install`(Linux)  

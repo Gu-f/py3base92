@@ -6,6 +6,8 @@ A python library to create base92 encoded strings in python3.
 **Version: 1.0.3-1**  
 Thenoviceoof-base92 supports python2 only. Build py3base92 based on base92.  
 The current version pack is only a temporary release. It is not in pypi.   
+I found that the version was posted to pypi by someone else. [python3base92 1.0.3.post1](https://pypi.org/project/python3base92/)  
+Installation command `pip install python3base92`  
 > Only printable characters supported, not bytes.  
 > Usage：  
 > Import the py3base92 module after installed by setup.py   
@@ -26,17 +28,22 @@ print(py3base92.base92_decode("Jw_@V"))
 
 **Version: 1.1.0**  
 PyPI Release. Subsequent updates are based on the current version.      
-> bytes already supported.    
+> bytes already supported. And some bugs have been fixed.   
 
 Remove redundant func：  
 encode()  
-base92_encode()  
+base92_encode()
+decode()  
+base92_decode()  
 
 
 
 ## Usage  
+Since the py3base92 package name is determined by pypi to be similar to the previous python3base92 package name, it cannot be used, so the new version uses py3-base92.  
+There are some bugs in the old version, it is recommended to use the latest version.  
 
-`pip install py3base92`  
+Installation  
+`pip install py3-base92`(Old version use `pip install python3base92`)  
 or  
 `$ENV:PYTHONPATH='src';python .\src\setup.py install`(Windows Powershell)  
 `PYTHONPATH=src python .\src\setup.py install`(Linux)  
