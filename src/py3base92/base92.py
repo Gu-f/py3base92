@@ -44,6 +44,8 @@ class Base92(object):
 
     @classmethod
     def b92encode(cls, byt: bytes) -> str:
+        if not isinstance(byt, bytes):
+            raise TypeError(f"a bytes-like object is required, not '{type(byt)}'")
         if not byt:
             return '~'
         # 确保bytstr存在(make sure we have a bytstr)
@@ -78,6 +80,8 @@ class Base92(object):
 
     @classmethod
     def b92decode(cls, bstr: str) -> bytes:
+        if not isinstance(bstr, str):
+            raise TypeError(f"a str object is required, not '{type(bstr)}'")
         bitstr = ''
         resstr = ''
         if bstr == '~':

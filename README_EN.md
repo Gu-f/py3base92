@@ -7,23 +7,7 @@ A python library to create base92 encoded strings in python3.
 Thenoviceoof-base92 supports python2 only. Build py3base92 based on base92.  
 The current version pack is only a temporary release. It is not in pypi.   
 I found that the version was posted to pypi by someone else. [python3base92 1.0.3.post1](https://pypi.org/project/python3base92/)  
-Installation command `pip install python3base92`  
-> Only printable characters supported, not bytes.  
-> Usage：  
-> Import the py3base92 module after installed by setup.py   
-func:  
-b92encode() / encode() / base92_encode()  equal  
-b92decode() / decode() / base92_decode()  equal  
-```python
-# Only version 1.0.3-1 is supported  
-import py3base92
-print(py3base92.encode("test"))
-print(py3base92.b92encode("test"))
-print(py3base92.base92_encode("test"))
-print(py3base92.decode("Jw_@V"))
-print(py3base92.b92decode("Jw_@V"))
-print(py3base92.base92_decode("Jw_@V"))
-```
+**!!!Note: This version(pypi online version) is not maintained and managed by this repository, and there may be potential security problems and bugs. In order to avoid misleading, the instructions for using this version are no longer provided**  
 
 
 **Version: 1.1.0**  
@@ -36,24 +20,30 @@ base92_encode()
 decode()  
 base92_decode()  
 
+**Version: 1.1.1**  
+> Some optimization.
+
 
 
 ## Usage  
-Since the py3base92 package name is determined by pypi to be similar to the previous python3base92 package name, it cannot be used, so the new version uses py3-base92.  
-There are some bugs in the old version, it is recommended to use the latest version.  
 
 Installation  
-`pip install py3-base92`(Old version use `pip install python3base92`)  
+`pip install py3-base92`  
 or  
 `$ENV:PYTHONPATH='src';python .\src\setup.py install`(Windows Powershell)  
 `PYTHONPATH=src python .\src\setup.py install`(Linux)  
 
 ```python
-import py3base92 as base92
+import py3base92
 
-print(base92.b92encode("hello world".encode()))
-
-print(base92.b92decode("Fc_$aOTdKnsM*k").decode())
+print(py3base92.b92encode("你好".encode()))
+# sIb@Vyq8
+print(py3base92.b92decode("sIb@Vyq8").decode())
+# 你好
+print(py3base92.b92encode("hello world".encode()))
+# Fc_$aOTdKnsM*k
+print(py3base92.b92decode("Fc_$aOTdKnsM*k").decode())
+# hello world
 ```
 
 
