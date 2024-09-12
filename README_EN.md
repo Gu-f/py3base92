@@ -1,4 +1,5 @@
 # py3base92
+[![Downloads](https://static.pepy.tech/badge/py3-base92/month)](https://pepy.tech/project/py3-base92)
 
 A python library to create base92 encoded strings in python3.
 
